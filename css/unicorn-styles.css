@@ -52,10 +52,10 @@ header {
   border-bottom: 3px solid #B3184A;
   height: 75px;
   margin-bottom: 25px;
-  text-align: center;
+  padding: 0 5%;
 }
 
-header h1 {
+h2 {
   background: url(../images/angry-unicorn.jpg) no-repeat;
   background-size: cover;
   border: 3px solid #B3184A;
@@ -67,23 +67,23 @@ header h1 {
   width: 50px;
 }
 
-nav {
+.main-nav {
   float: right;
   padding-top: 15px;
 }
 
-nav li {
+.main-nav li {
   display: inline-block;
   margin: 15px 10px 0;
 }
 
-nav a {
+.main-nav a {
   color: white;
   font-size: 110%;
   text-decoration: none;
 }
 
-nav li a:hover {
+.main-nav a:hover {
   border-bottom: 4px solid #B3184A;
 }
 
@@ -113,11 +113,6 @@ nav li a:hover {
 }
 
 /* main content */
-
-.main-content,
-.secondary-content {
-  background: none;
-}
 
 .main-content p {
   display: inline-block;
@@ -155,7 +150,6 @@ nav li a:hover {
 
 .secondary-content li{
   color: #8DD6AF;
-
 }
 
 .secondary-content h3,
@@ -178,7 +172,11 @@ nav li a:hover {
 footer {
   background: #B3184A;
   height: 150px;
-  text-align: center;
+}
+
+footer ul {
+  max-width: 697px;
+  margin: auto;
 }
 
 footer img {
